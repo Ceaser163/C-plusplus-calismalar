@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int x,y,num1,num2,num3,num4;
+  cout <<"x degerini giriniz: ";
+  cin  >>x;
+  cout <<"y degernini giriniz: ";
+  cin  >>y;
+  
+  num1=x+y;
+  num2=x-y;
+  num3=x*y;
+  num4=x/y;
+  
+  cout <<"Sayilarin toplami: "<<num1<<endl;
+  cout <<"Sayilarin cikarmasi: "<<num2<<endl;
+  cout <<"Sayilarin carpimiı: "<<num3<<endl;
+  cout <<"Sayilarin bolumu: "<<num4<<endl;
+  
+  return 0;
+}
