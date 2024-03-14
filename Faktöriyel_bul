@@ -1,0 +1,35 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+  int faktoriyel(){
+  	setlocale(LC_ALL,"Turkish");
+  	
+  	int i,j,x,sonuc=1;
+  	
+  	cout <<"Faktöriyeli alınması istediğiniz sayıyı giriniz: ";
+  	cin >>x;
+  	
+  	if(x<2)
+  	return 0;
+  	
+  	while(i!=x){
+  		i++;
+  		sonuc=sonuc*i;
+  	    }
+  		
+  		cout <<"Sonuc: "<<sonuc;
+  	
+  	return sonuc;
+  }
+   int main(){
+  	setlocale(LC_ALL,"Turkish");
+  	
+  	int x;
+  	
+  	faktoriyel();
+  	
+  	
+  	return 0;
+  }
